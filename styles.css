@@ -1,0 +1,73 @@
+
+
+  /* .col {
+	  float: left;
+	  width: 30%;
+	  padding: 5px;
+	} */
+
+
+#dropdown{
+    width: 190px;
+    height: 32px;
+}
+#c1{
+    margin-left: 100px;
+ }
+
+         
+          
+ .btn-grad {
+    width: 250px; ;
+    background-image: linear-gradient(to right, #1CD8D2 0%, #93EDC7  51%, #1CD8D2  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; 
+    color: white;
+    text-decoration: none;
+  }
+ 
+  /* .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+  .dropdown:hover .dropdown {
+    display: block;
+  }
+
+.yes{
+    background-color: brown;
+    width:0%;
+    height: 10px;
+}
+.no{
+    color: blueviolet;
+    font-size: 30px;
+}
+h2{
+    color: crimson;
+
+
+}
+body{
+  background-image: url("https://prmceam.ac.in/wp-content/uploads/2015/03/background-learner1.jpg");
+  background-size: cover;
+}
+table{
+  background-color: #eee;
+}
